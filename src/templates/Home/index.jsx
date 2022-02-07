@@ -1,7 +1,11 @@
+import * as Styled from './styles';
+
 function Home() {
   return (
     <div>
-      <h1>Hello</h1>
+      <Styled.Wrapper fontSize="28px">
+        <h1>Hello</h1>
+      </Styled.Wrapper>
     </div>
   );
 }
